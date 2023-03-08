@@ -1,31 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>01/08/2023 21:06</Date>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>03/08/2023 12:50</Date>
 	<AppInfo>
 		<Version>1.5.0.5855</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Home N 64-bit - Client 10.0.19041.1 (en-US) - en-US</Host>
+		<Host>Windows 10 S Insider Preview 64-bit - Client 10.0.17655.1000 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Home N 64-bit - Client 10.0.22621.819 (en-US)</Version>
-		<GUID>{8319DEA4-D9CB-44AD-9B0A-65E5F8DAE192}</GUID>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.22621.525 (en-US)</Version>
+		<GUID>{DD1929E0-868D-484F-A3AE-C6DCDFA27ED9}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<c>3daudio 'Spatial Sound (3D Audio)'</c>
-		<c>accessibility 'Alati pristupačnosti'</c>
+		<c>1527c705-839a-4832-9118-54d4Bd6a0c89 'FilePicker'</c>
 		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
 		<c>appv 'Application Virtualization (App-V)'</c>
 		<c>assembly.net 'NET sklop predmemorije'</c>
 		<c>biometricservice 'Windows Biometric Service'</c>
+		<c>branchcacheclient 'BranchCache Client'</c>
+		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'FileExplorer'</c>
+		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
 		<c>dbgeng 'Windows Symbolic Debugger Engine'</c>
 		<c>defrag 'Diskovni Defragmenter'</c>
+		<c>driver_c_image.inf</c>
+		<c>driver_image.inf</c>
+		<c>driver_kdnic.inf</c>
+		<c>driver_msdv.inf</c>
+		<c>driver_rdpbus.inf</c>
+		<c>driver_wsdscdrv.inf</c>
 		<c>driver_xinputhid.inf</c>
+		<c>E2A4F912-2574-4A75-9BB0-0D023378592B 'AppResolverUX'</c>
+		<c>easeofaccessthemes 'Olakšani pristup temama'</c>
+		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
+		<c>enhancedstorage 'Enhanced Storage'</c>
+		<c>enterpriseclientsync 'Work Folders Client'</c>
+		<c>F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE 'AddSuggestedFoldersToLibraryDialog'</c>
+		<c>fciclient 'File Server Resource Manager'</c>
 		<c>filehistory 'File History'</c>
 		<c>gameexplorer 'Game Explorer'</c>
+		<c>gamingperipherals 'Gaming Peripherals (Xbox GIP)'</c>
+		<c>help 'Čarobnjak pomoći Windowsa'</c>
+		<c>helpsupport 'Help file support (CHM)'</c>
+		<c>hwsupport_internetprintingclient 'Internet Printing klijent'</c>
 		<c>hwsupport_tv 'TV Tuner codeci i podrška'</c>
+		<c>hwsupport_wia 'Windows Image Acquisition (WIA)'</c>
 		<c>identityfoundation 'Windows Identity Foundation (WIF)'</c>
 		<c>iis 'Internet Information Server (IIS)'</c>
+		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>langarabic 'Arabic'</c>
 		<c>langbulgarian 'Bulgarian'</c>
 		<c>langchineses 'Chinese Simplified'</c>
@@ -68,15 +89,80 @@
 		<c>langturkish 'Turkish'</c>
 		<c>langukrainian 'Ukrainian'</c>
 		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>lxss 'Windows Subsystem for Linux'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS$#92;Backup)'</c>
 		<c>manifests 'Windows Component Database'</c>
 		<c>manualsetup 'Ručni Setup'</c>
+		<c>mediacodec 'Windows Media Codec'</c>
+		<c>mediaplayer 'Windows Media Player'</c>
+		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
+		<c>Microsoft.549981C3F5F10 '549981C3F5F10'</c>
+		<c>Microsoft.AAD.BrokerPlugin 'AAD.BrokerPlugin'</c>
+		<c>Microsoft.AccountsControl 'AccountsControl'</c>
+		<c>Microsoft.AsyncTextService 'AsyncTextService'</c>
+		<c>Microsoft.BingNews 'BingNews'</c>
+		<c>Microsoft.BingWeather 'BingWeather'</c>
 		<c>Microsoft.BioEnrollment 'BioEnrollment'</c>
+		<c>Microsoft.CredDialogHost 'CredDialogHost'</c>
+		<c>Microsoft.DesktopAppInstaller 'DesktopAppInstaller'</c>
+		<c>Microsoft.ECApp 'ECApp'</c>
+		<c>Microsoft.GamingApp 'GamingApp'</c>
+		<c>Microsoft.GetHelp 'GetHelp'</c>
+		<c>Microsoft.Getstarted 'Centar dobrodošlice (Početak)'</c>
+		<c>Microsoft.LockApp 'LockApp'</c>
 		<c>Microsoft.MicrosoftEdge 'MicrosoftEdge'</c>
+		<c>Microsoft.MicrosoftEdgeDevToolsClient 'MicrosoftEdgeDevToolsClient'</c>
+		<c>Microsoft.MicrosoftOfficeHub 'MicrosoftOfficeHub'</c>
+		<c>Microsoft.MicrosoftSolitaireCollection 'MicrosoftSolitaireCollection'</c>
+		<c>Microsoft.MicrosoftStickyNotes 'MicrosoftStickyNotes'</c>
+		<c>Microsoft.Paint 'Paint'</c>
+		<c>Microsoft.People 'People'</c>
+		<c>Microsoft.PowerAutomateDesktop 'PowerAutomateDesktop'</c>
+		<c>Microsoft.ScreenSketch 'ScreenSketch'</c>
+		<c>Microsoft.SecHealthUI 'SecHealthUI'</c>
+		<c>Microsoft.StorePurchaseApp 'StorePurchaseApp'</c>
+		<c>Microsoft.Todos 'Todos'</c>
+		<c>Microsoft.VP9VideoExtensions 'VP9VideoExtensions'</c>
+		<c>Microsoft.WebMediaExtensions 'WebMediaExtensions'</c>
+		<c>Microsoft.WebpImageExtension 'WebpImageExtension'</c>
+		<c>Microsoft.Win32WebViewHost 'Win32WebViewHost'</c>
+		<c>Microsoft.Windows.AssignedAccessLockApp 'AssignedAccessLockApp'</c>
+		<c>Microsoft.Windows.CallingShellApp 'CallingShellApp'</c>
+		<c>Microsoft.Windows.CapturePicker 'CapturePicker'</c>
+		<c>Microsoft.Windows.ContentDeliveryManager 'ContentDeliveryManager'</c>
+		<c>Microsoft.Windows.NarratorQuickStart 'NarratorQuickStart'</c>
+		<c>Microsoft.Windows.OOBENetworkCaptivePortal 'OOBENetworkCaptivePortal'</c>
+		<c>Microsoft.Windows.OOBENetworkConnectionFlow 'OOBENetworkConnectionFlow'</c>
 		<c>Microsoft.Windows.ParentalControls 'ParentalControls'</c>
+		<c>Microsoft.Windows.PeopleExperienceHost 'PeopleExperienceHost'</c>
+		<c>Microsoft.Windows.Photos 'Photos'</c>
+		<c>Microsoft.Windows.PinningConfirmationDialog 'PinningConfirmationDialog'</c>
+		<c>Microsoft.Windows.SecureAssessmentBrowser 'SecureAssessmentBrowser'</c>
+		<c>Microsoft.Windows.XGpuEjectDialog 'XGpuEjectDialog'</c>
+		<c>Microsoft.WindowsAlarms 'WindowsAlarms'</c>
+		<c>Microsoft.WindowsCalculator 'WindowsCalculator'</c>
+		<c>Microsoft.WindowsCamera 'WindowsCamera'</c>
 		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
+		<c>Microsoft.WindowsFeedbackHub 'WindowsFeedbackHub'</c>
 		<c>Microsoft.WindowsMaps 'WindowsMaps'</c>
+		<c>Microsoft.WindowsSoundRecorder 'WindowsSoundRecorder'</c>
+		<c>Microsoft.WindowsStore 'WindowsStore'</c>
+		<c>Microsoft.WindowsTerminal 'WindowsTerminal'</c>
+		<c>Microsoft.Xbox.TCUI 'Xbox.TCUI'</c>
+		<c>Microsoft.XboxGameCallableUI 'XboxGameCallableUI'</c>
+		<c>Microsoft.XboxGameOverlay 'XboxGameOverlay'</c>
+		<c>Microsoft.XboxGamingOverlay 'XboxGamingOverlay'</c>
+		<c>Microsoft.XboxIdentityProvider 'XboxIdentityProvider'</c>
+		<c>Microsoft.XboxSpeechToTextOverlay 'XboxSpeechToTextOverlay'</c>
+		<c>Microsoft.YourPhone 'YourPhone'</c>
+		<c>Microsoft.ZuneMusic 'ZuneMusic'</c>
+		<c>Microsoft.ZuneVideo 'ZuneVideo'</c>
+		<c>MicrosoftCorporationII.QuickAssist</c>
+		<c>MicrosoftWindows.Client.WebExperience 'MicrosoftClient.WebExperience'</c>
 		<c>migwiz 'Easy Transfer'</c>
+		<c>mobilepc_networkprojection 'Network Projection'</c>
+		<c>multipointconnector 'MultiPoint Connector'</c>
+		<c>NcsiUwpApp</c>
 		<c>netframework3 '.NET Framework 2.0, 3.0 and 3.5'</c>
 		<c>netframework3wcf 'Windows Communication Foundation (WCF) 3'</c>
 		<c>netframework4wcf 'Windows Communication Foundation (WCF) 4'</c>
@@ -86,25 +172,46 @@
 		<c>perfcounters 'Performance Counters'</c>
 		<c>perfmon 'Performance Monitor'</c>
 		<c>perftools 'Performance CMD Tools for Tracing'</c>
+		<c>photoviewer 'Photo preglednik'</c>
 		<c>pla 'Performance Logs and Alerts'</c>
 		<c>playready</c>
+		<c>printtopdf 'Print to PDF'</c>
+		<c>rdc 'Remote Differential Compression (RDC)'</c>
 		<c>rdpclient 'Remote Desktop Client'</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
 		<c>retaildemo 'Retail Demo Content'</c>
 		<c>screensavers 'Screensaveri'</c>
+		<c>search 'Windows pretraga'</c>
 		<c>sfc 'System File Check (SFC)'</c>
+		<c>sharemediacpl 'kontrolna ploča dijeljenih medija'</c>
+		<c>simpletcp 'Pojedinačni TCP/IP servis'</c>
+		<c>smbdirect 'SMB Direct (RDMA)'</c>
 		<c>soundsdefault 'Zvukovi (zadano)'</c>
 		<c>sourcessxsdir 'Manual feature repository'</c>
 		<c>speechcommon 'Prepoznavanje govora'</c>
 		<c>speechtts 'Speech TTS'</c>
 		<c>staticfontcache 'Static Font Cache'</c>
+		<c>stici 'Still Image Class Installer'</c>
+		<c>supportdir 'Support directory'</c>
+		<c>systemrestore 'Vraćanje sustava'</c>
 		<c>tabletextservice 'Table Text Servis'</c>
+		<c>telnetclient 'Telnet Client'</c>
 		<c>tempcache 'Cache i temp datoteke'</c>
+		<c>tftpclient 'TFTP client'</c>
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
+		<c>vpn 'Virtual Private Network (VPN) support'</c>
+		<c>wallet 'Wallet Service'</c>
+		<c>wallpaperdefault 'Pozadina (zadano)'</c>
+		<c>webcamexperience 'Webcam Experience'</c>
+		<c>Windows.CBSPreview 'CBSPreview'</c>
+		<c>winocr 'Windows TIFF IFilter(OCR)'</c>
 		<c>winre 'Windows oporavak'</c>
 		<c>winrm 'Windows Remote Management (WS-Management)'</c>
 		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
 		<c>winsxs 'Windows Component Store (WinSxS)'</c>
 		<c>wordpad</c>
+		<c>xbox 'Xbox App'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
@@ -117,9 +224,11 @@
 			<Feature enabled="no">Recommended-All</Feature>
 			<Feature enabled="yes">Printing</Feature>
 			<Feature enabled="no">ManualSetup</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
 			<Feature enabled="yes">Recommended-Tablet</Feature>
 			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="yes">USBModem</Feature>
+			<Feature enabled="no">VideoPlayback</Feature>
 			<Feature enabled="yes">Activation</Feature>
 			<Feature enabled="yes">ActivationKMS</Feature>
 			<Feature enabled="yes">WLAN</Feature>
@@ -185,6 +294,12 @@
 				<ImageInstall>
 					<OSImage>
 						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/NAME</Key>
+								<Value>Windows 11 Pro</Value>
+							</MetaData>
+						</InstallFrom>
 					</OSImage>
 				</ImageInstall>
 				<UserData>

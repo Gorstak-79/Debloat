@@ -1,21 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>01/08/2023 20:40</Date>
+	<Date>03/08/2023 13:02</Date>
 	<AppInfo>
 		<Version>1.5.0.5855</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Home N 64-bit - Client 10.0.19041.1 (en-US) - en-US</Host>
+		<Host>Windows 10 S Insider Preview 64-bit - Client 10.0.17655.1000 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows (TM) 10 Preinstallation Environment 64-bit - WindowsPE 10.0.22621.819 (en-US)</Version>
-		<GUID>{A6E7A85C-DC29-430C-87D4-19A458DB4CB5}</GUID>
+		<Version mode="offline">Windows (TM) 10 Preinstallation Environment 64-bit - WindowsPE 10.0.22621.525 (en-US)</Version>
+		<GUID>{210B107C-0068-49C5-8576-284A6602D23F}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
 		<c>dbgeng 'Windows Symbolic Debugger Engine'</c>
+		<c>driver_c_printer.inf</c>
+		<c>driver_kdnic.inf</c>
+		<c>driver_wdmvsc.inf</c>
+		<c>driver_whyperkbd.inf</c>
+		<c>driver_wnetvsc.inf</c>
+		<c>driver_wstorvsc.inf</c>
+		<c>driver_wvmbus.inf</c>
+		<c>driver_wvmbushid.inf</c>
+		<c>driver_wvmbusvideo.inf</c>
+		<c>driver_wvpci.inf</c>
 		<c>font_fixed 'Fixed'</c>
 		<c>font_segoeui_italicssupplement 'SegoeUI ItalicsSupplement'</c>
 		<c>font_sylfaen 'Sylfaen'</c>
+		<c>help 'Čarobnjak pomoći Windowsa'</c>
+		<c>helpsupport 'Help file support (CHM)'</c>
+		<c>hwsupport_printer 'Printanje'</c>
+		<c>hypervguest 'Hyper-V gost'</c>
+		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>langarabic 'Arabic'</c>
 		<c>langbulgarian 'Bulgarian'</c>
 		<c>langchineses 'Chinese Simplified'</c>
@@ -55,9 +70,15 @@
 		<c>langukrainian 'Ukrainian'</c>
 		<c>manifests 'Windows Component Database'</c>
 		<c>perfcounters 'Performance Counters'</c>
+		<c>securestartup 'BitLocker Drive Enkripcija'</c>
 		<c>sfc 'System File Check (SFC)'</c>
 		<c>speechcommon 'Prepoznavanje govora'</c>
 		<c>speechtts 'Speech TTS'</c>
+		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
+		<c>systemrestore 'Vraćanje sustava'</c>
+		<c>winpeenhancedstorage 'WinPE EnhancedStorage'</c>
+		<c>winpescripting 'WinPE Scripting'</c>
+		<c>winpewds 'Windows Deployment Services tools'</c>
 		<c>winsxs 'Windows Component Store (WinSxS)'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
@@ -97,6 +118,6 @@
 		<ReuseDriverCache>false</ReuseDriverCache>
 	</ApplyOptions>
 	<Registry>
-		<Item>F:\Gorstak\3rdParty-main\TPMBypass.reg</Item>
+		<Item>F:\Gorstak\Registry-main\TPMBypass.reg</Item>
 	</Registry>
 </Preset>
